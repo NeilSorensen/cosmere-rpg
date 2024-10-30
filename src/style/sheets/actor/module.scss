@@ -41,7 +41,7 @@
         top: 15%;
 
         > a {
-            background: rgba(11, 10, 19, 0.9);
+            background: var(--background);
             width: 2.88867rem;
             height: 2.5rem;
             display: flex;
@@ -52,7 +52,7 @@
             border-bottom-right-radius: 0.3rem;
 
             &.active {
-                background-color: rgb(45 41 77 / 90%);
+                background-color: var(--plotweaver-color-active);
             }
         }
     }
@@ -370,30 +370,30 @@
 
             &.hea {
                 .bar {
-                    background: darkred;
+                    background: var(--plotweaver-color-health-back);
 
                     .inner-bar {
-                        background: green;
+                        background: var(--plotweaver-color-health-front);
                     }
                 }
             }
 
             &.foc {
                 .bar {
-                    background: #220040;
+                    background: var(--plotweaver-color-focus-back);
 
                     .inner-bar {
-                        background: #5f00b2;
+                        background: var(--plotweaver-color-focus-front);
                     }
                 }
             }
 
             &.inv {
                 .bar {
-                    background: #191e32;
+                    background: var(--plotweaver-color-invest-back);
 
                     .inner-bar {
-                        background: #516bd2;
+                        background: var(--plotweaver-color-invest-front);
                     }
                 }
             }
@@ -477,7 +477,7 @@
                 justify-content: center;
                 position: relative;
 
-                border: 1px solid #463a47;
+                border: 1px solid var(--plotweaver-color-gray-4);
                 border-bottom-left-radius: 50%;
                 border-bottom-right-radius: 50%;
 
